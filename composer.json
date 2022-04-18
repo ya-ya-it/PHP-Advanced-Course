@@ -1,0 +1,18 @@
+{
+    "name": "work/calculator",
+    "description": "Description",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Interface\\": "interfaces/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daria Davydenko"
+        }
+    ],
+    "require": {
+        "nubs/random-name-generator": "^2.2"
+    }
+}
